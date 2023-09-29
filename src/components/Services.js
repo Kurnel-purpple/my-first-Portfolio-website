@@ -40,7 +40,7 @@ const Services =()=>{
     return(
         <div >
             <div className="flex flex-col">
-                <h1 className="mx-auto font-bold text-3xl">OUR SERVICES</h1>
+                <h1 className="mx-auto font-bold mt-4 mb-2 text-3xl">OUR SERVICES</h1>
                 <div>
                     <p>Cornelius Egberameiye renders a variety of services, due to the vast range of experiences and knowledge ammased over the years. these services include</p>
                     
