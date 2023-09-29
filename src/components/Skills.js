@@ -1,5 +1,6 @@
 
 const Skills =()=>{
+    const myskills=[heroImg:]
     return(
         <secton id="skills" className="Flex section">
             <h1 className="text-2xl font-bold text-center bg-red-500">Skills Page</h1>

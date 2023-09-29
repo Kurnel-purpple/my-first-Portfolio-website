@@ -1,7 +1,7 @@
 
 
 const MyService = ({ title, myArray,examples, description, heroImg, images, isOrderSwitched }) => {
-    const containerClasses = `flex p-4 ${isOrderSwitched ? 'flex-row-reverse' : ''}`;
+    const containerClasses = `flex p-4 border-b border-b-slate-300 ${isOrderSwitched ? 'flex-row-reverse' : ''}`;
   return(
     <div className={containerClasses} >
         <div className="w-1/2">

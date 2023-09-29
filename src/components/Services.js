@@ -9,6 +9,9 @@ import blog from '../illustrations/blog.webp';
 import classroom from '../illustrations/classroom-4.webp';
 import teaching from '../illustrations/teaching.jpg';
 import training from '../illustrations/training.jpg';
+import desk1 from '../illustrations/rightDesk-2.webp';
+import erpService from '../illustrations/services-2.webp';
+import networkHero from '../illustrations/servicees-3.webp';
 
 const Services =()=>{
     const [position, setPosition] = useState('left')
@@ -21,8 +24,15 @@ const Services =()=>{
                     {title:'I.C.T Instruction',
                     description:'With a teaching and tutoring experience that spans seven years and counting, and an I.C.T instruction experience of over three years, we are confident in our ability to introduce I.C.T to first timers, nuture them, and keep our students up-to-date with the new innovations in I.C.T as they are released.', 
                     heroImg:classroom,
-                    examples:'we are presently incharge of the I.C.T curriculum of the following establishments.',
+                    examples:'we are presently incharge of the I.C.T curriculum in the following establishments.',
                     images:[{pic:teaching,label:'I.C.T Instructor at Reading Rainbow Schools Ikorodu'},{pic:training, label:'I.C.T Instructor at SEATOS Schools Ikorodu'}]
+                    },
+                    {
+                        title:'Network adminstration',
+                        description:'we created, configured and administered the internal network setup of the following establishments, ',
+                        images:[{pic:desk1, label:'SEATOS Schools'}, {pic:networkHero, label:'Reading Rainbow Schools'}],
+                        heroImg:erpService
+
                     }
                 ]
       
