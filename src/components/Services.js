@@ -50,6 +50,8 @@ const Services =()=>{
                                     <h3 className='row-start-1 row-end-2 col-span-full mr-4 font-semibold text-2xl bg-stone-700 px-3 py-1 w-fit text-wheat' style={{fontFamily:'cursive'}} >{service.title}</h3>
 
                                 </div>
+                                
+                                
                     
                                 <div>
                                     <MyService
