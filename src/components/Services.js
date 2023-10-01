@@ -1,6 +1,6 @@
 
 // import HPServices from "./HPServices";
-import { useState } from 'react';
+// import { useState } from 'react';
 import codingImg1 from '../illustrations/Coding-desk.webp';
 import services3 from '../illustrations/servicees-3.webp';
 import download from '../illustrations/download.webp';
@@ -14,22 +14,23 @@ import erpService from '../illustrations/services-2.webp';
 import networkHero from '../illustrations/servicees-3.webp';
 
 const Services =()=>{
-    const [position, setPosition] = useState('left')
+    
     const myArray =[{title:'Web Design and Developement',
                     description:'With close to two years experience in web developement, we offer precise, thoughtout, futuristic and excellent website designs and developement from start to finish.',
                     heroImg:download,
                     examples:'Here are some projects we have worked on.',
-                    images:[{pic:codingImg1,label:'P.E.C Official Website'},{pic:services3, label:'My portfolio website'},{pic:blog, label:'Sabi.com official website'}]
+                    images:[{pic:codingImg1,label:'P.E.C Website'},{pic:services3, label:'My portfolio website'},{pic:blog, label:'Sabi.com website'}]
                     },
                     {title:'I.C.T Instruction',
                     description:'With a teaching and tutoring experience that spans seven years and counting, and an I.C.T instruction experience of over three years, we are confident in our ability to introduce I.C.T to first timers, nuture them, and keep our students up-to-date with the new innovations in I.C.T as they are released.', 
                     heroImg:classroom,
                     examples:'we are presently incharge of the I.C.T curriculum in the following establishments.',
-                    images:[{pic:teaching,label:'I.C.T Instructor at Reading Rainbow Schools Ikorodu'},{pic:training, label:'I.C.T Instructor at SEATOS Schools Ikorodu'}]
+                    images:[{pic:teaching,label:'Reading Rainbow Schools Ikorodu'},{pic:training, label:'SEATOS Schools Ikorodu'}]
                     },
                     {
                         title:'Network adminstration',
-                        description:'we created, configured and administered the internal network setup of the following establishments, ',
+                        description:'With an experience of four years and counting in this field, and as a CCNA Network Administrator, we have the know-how and wit to establish and maintain a functional, durable and efficient network for your establishment.',
+                        examples:"we've created, configured and maintained the internal network setup of the following establishments",
                         images:[{pic:desk1, label:'SEATOS Schools'}, {pic:networkHero, label:'Reading Rainbow Schools'}],
                         heroImg:erpService
 
@@ -46,10 +47,7 @@ const Services =()=>{
                     
                         {myArray.map((service, index)=>(
                             <div>
-                                <div className='grid grid-cols-5 grid-rows-10 z-10 mt-4 mb-4'>
-                                    <h3 className='row-start-1 row-end-2 col-span-full mr-4 font-semibold text-2xl bg-stone-700 px-3 py-1 w-fit text-wheat' style={{fontFamily:'cursive'}} >{service.title}</h3>
-
-                                </div>
+                                
                                 
                                 
                     

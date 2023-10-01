@@ -35,6 +35,7 @@ module.exports = {
       boxShadow:{
         'myShadow': '2px 2px 2px 2px',
         'myShadow2': '2px 2px 4px 2px #888C8D',
+        'myShadow3': '2px 2px 2px 2px #000',
       },
       scale: {
         '-100': '-1',
