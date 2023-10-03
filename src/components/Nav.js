@@ -25,12 +25,12 @@ const Nav =()=>{
                    
                 </NavLink>
 
-                <div onClick={()=>setOpen(!open)} className='mr-[10px] absolute text-3xl font-bold z-10 right-2 cursor-pointer'>
+                <div onClick={()=>setOpen(!open)} className='mr-[10px] absolute text-3xl font-bold z-10 right-2 cursor-pointer lg:hidden md:right-8'>
                     
                     
                     {open ? <AiOutlineMenuUnfold  />:<AiOutlineMenuFold  />}
                 </div>
-                <nav id='navBar' className={`lg:flex flex-col text-lg lg:flex-row sm:margin-auto h-[300px] md:h-fit  md:w-[60%] justify-between z-10 ${open ? 'flex flex-col bg-wheat mt-10 p-4 rounded leading-[50px]  my-auto' : 'hidden'}`} style={{fontFamily: 'cursive'}}>
+                <nav id='navBar' className={`lg:flex flex-col text-lg lg:flex-row sm:margin-auto h-[300px] md:h-fit  md:w-[60%] justify-between z-10 ${open ? 'flex flex-col bg-wheat mt-10 p-4 rounded leading-[50px] right-0 my-auto' : 'hidden'}`} style={{fontFamily: 'cursive'}}>
 
                     <NavLink  className={({ isActive }) =>
                         isActive ? "text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text  border-b-2 border-b-blue-900 font-bold" : "font-semibold hover:text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text"
