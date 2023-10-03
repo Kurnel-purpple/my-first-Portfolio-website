@@ -6,6 +6,7 @@ import {NavLink } from 'react-router-dom';
 import codingDesk1 from '../illustrations/rightDesk-3.webp';
 import {TypeAnimation} from 'react-type-animation';
 
+
 const Home =()=>{
     return(
         <div >
@@ -37,7 +38,7 @@ const Home =()=>{
                 </div>
             </div>
             <div className=''> 
-                <img src={codingDesk1} alt='Hero Image' className=' rounded-bl-[100px] rounded-tr-[100px] rounded-tl-[30px] rounded-br-[30px]'  />
+                <img src={codingDesk1} alt='Hero Image' className=' rounded-bl-[100px] rounded-tr-[100px] rounded-tl-[30px] rounded-br-[30px] hidden md:flex'  />
             </div>
             </div>
             <HPServices/>

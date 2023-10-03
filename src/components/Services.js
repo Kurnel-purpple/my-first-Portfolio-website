@@ -41,17 +41,13 @@ const Services =()=>{
     return(
         <div >
             <div className="flex flex-col">
-                <h1 className="mx-auto font-bold mt-4 mb-2 text-3xl">OUR SERVICES</h1>
-                <div>
-                    <p>Cornelius Egberameiye renders a variety of services, due to the vast range of experiences and knowledge ammased over the years. these services include</p>
+                <h1 className="mx-auto text-[70px] text-mydarkblue2 font-bold mt-[20px] mb-10 border-b border-b-slate-300">Our Services</h1>
+                <div className='flex flex-col mx-auto'>
+                    <p className='mx-auto text-2xl mt-2 max-w-[70%] z-10'> <span className='text-[40px] font-bold text-mydarkblue1 ' style={{fontFamily:'cursive'}}>Cornelius Egberameiye,</span> renders a variety of services, due to the range of experiences and knowledge ammased over the years. these services include:</p>
                     
                         {myArray.map((service, index)=>(
-                            <div>
-                                
-                                
-                                
-                    
-                                <div>
+                           
+                                <div className='relative -top-[100px]'>
                                     <MyService
                                     key={index}
                                     title={service.title}
@@ -63,7 +59,7 @@ const Services =()=>{
                                     isOrderSwitched={index % 2 === 1}
                                     />
                                 </div>
-                            </div>
+                            
                         ))}
                     
                 </div>

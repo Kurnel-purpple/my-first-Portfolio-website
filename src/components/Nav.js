@@ -2,15 +2,14 @@ import { NavLink } from 'react-router-dom';
 import mic from '../images/mic.jpg'
 import { BiSearchAlt2 } from 'react-icons/bi';
 import {BiSolidUserCircle} from 'react-icons/bi';
-import {FaPhone} from 'react-icons/fa'
+import {FaPhone} from 'react-icons/fa';
+import {AiOutlineMenuFold} from 'react-icons/ai';
+import {AiOutlineMenuUnfold} from 'react-icons/ai';
 
 const Nav =()=>{
-    // const matchHome = useMatch('/');
-    // const matchServices = useMatch('/Services');
-    // const matchProjects = useMatch('/Projects');
-    // const matchSkills = useMatch('/Skills');
-    // const matchContact = useMatch('/Contact');
     
+    
+
 
     
     return(
@@ -24,7 +23,12 @@ const Nav =()=>{
                     <span className='bg-gradient-to-r from-rebeccapurple to-orangered text-transparent bg-clip-text text-3xl font-bold'>C.E</span>
                    
                 </NavLink>
-                <nav className='flex flex-col text-lg md:flex-row sm:margin-auto h-fit md:w-[60%] justify-between z-10  ' style={{fontFamily: 'cursive'}}>
+
+                <div className='mr-[10px] pr-4'>
+                    <AiOutlineMenuFold className='absolute text-3xl font-bold z-10 ' />
+                    <AiOutlineMenuUnfold className='absolute text-3xl font-bold z-10 ' />
+                </div>
+                <nav id='navBar' className='md:flex flex-col text-lg md:flex-row sm:margin-auto h-fit md:w-[60%] justify-between z-10 hidden ' style={{fontFamily: 'cursive'}}>
                     <NavLink  className={({ isActive }) =>
               isActive ? "text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text  border-b-2 border-b-blue-900 font-bold" : "font-semibold hover:text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text"
             } to="/">Home</NavLink>

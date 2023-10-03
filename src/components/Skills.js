@@ -20,7 +20,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="flex flex-col section">
-      <h1 className="text-3xl border-b border-b-slate-300 w-fit mx-auto py-2 font-bold text-center mt-4">
+      <h1 className="text-[70px] text-mydarkblue2 border-b border-b-slate-300 w-fit mx-auto py-2 font-bold text-center mt-[20px]">
         My Arsenal
       </h1>
 

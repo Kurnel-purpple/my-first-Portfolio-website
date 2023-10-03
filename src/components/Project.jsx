@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = ({title, project,key, description, heroImg, projectArray, isOrderSwitched}) => {
 
-  const orderSwitchClass =  `flex flex-col p-4 ${isOrderSwitched ? 'flex-row-reverse bg-stone-700 text-milk' : ''}`;
+  const orderSwitchClass =  `flex flex-col p-4 my-6 ${isOrderSwitched ? 'flex-row-reverse bg-stone-700 text-milk mb-20' : ''}`;
   const titleOSClass =  `px-3 py-2 rounded shadow-myShadow3 text-2xl font-bold my-4 ml-2 w-fit ${isOrderSwitched ? 'px-3 py-2 rounded shadow-myShadow2 text-2xl font-bold my-3 ml-2 w-fit ' : ''}`;
   return (
     <div className={orderSwitchClass}>
