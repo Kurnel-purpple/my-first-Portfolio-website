@@ -4,11 +4,11 @@ import { NavLink } from 'react-router-dom';
 const HPSkills =()=>{
     return(
         <div className='my-20'>
-            <div className='flex flex-col'>
+            <div className='flex flex-col px-4'>
                 <h1 className='mx-auto font-bold text-4xl '>Skills</h1>
-                <div className='flex justify-between'>
-                    <div className='flex flex-col justify-around w-[50%]'>
-                        <div className='shadow-myShadow2 flex py-3 px-2 flex-col'>
+                <div className='lg:flex justify-between '>
+                    <div className='flex flex-col justify-around lg:w-[50%]'>
+                        <div className='shadow-myShadow2 my-2 flex py-3 px-2 flex-col'>
                             <h3 className='font-semibold mx-auto underline text-xl text-mydarkblue2' style={{fontFamily:'cursive'}}>Programing Languages</h3>
                             <ul className='grid gap-4 list-disc px-4 font-semibold grid-cols-3'>
                                 <li>Reactjs</li>
@@ -18,7 +18,7 @@ const HPSkills =()=>{
                                 <li>Semantic HTML</li>
                             </ul>
                         </div>
-                        <div className='shadow-myShadow2 flex py-3 px-2 flex-col'>
+                        <div className='shadow-myShadow2 my-2 flex py-3 px-2 flex-col'>
                             <h3 className='font-semibold mx-auto underline text-xl text-mydarkblue2' style={{fontFamily:'cursive'}}>Low-Code Tools</h3>
                             <ul className='grid gap-4 list-disc px-4 font-semibold grid-cols-3'>
                                 <li>Figma</li>

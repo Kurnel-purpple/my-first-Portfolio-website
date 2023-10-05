@@ -6,7 +6,7 @@ import {MdOutlineMiscellaneousServices} from 'react-icons/md';
 import {AiOutlinePhone} from 'react-icons/ai';
 const Bottomnav = ()=>{
     return(
-        <div className=" fixed bottom-6 w-full z-50 overflow-hidden">
+        <div className="hidden lg:flex fixed bottom-6 w-full z-50 overflow-hidden">
             <div className='container mx-auto'>
                 <div className='items-center w-full max-w-[420px] h-[90px] bg-wheat/70 backdrop-blur-2xl rounded-full mx-auto flex justify-between px-5 text-2xl'>
                     <Link smooth= {true}

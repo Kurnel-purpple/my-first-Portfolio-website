@@ -9,7 +9,7 @@ const HPProjects =()=>{
     return(
         <div className='flex flex-col'>
             <h1 className='text-3xl font-bold mx-auto mb-4'> Our Works</h1>
-            <div className='grid grid-cols-2 grid-rows-3 gap-3'>
+            <div className='md:grid grid-cols-2 grid-rows-3 gap-3'>
                 <div className=' flex flex-col'>
                     <h3 className='font-bold mb-4 text-lg text-slate-700 cursor-pointer mx-auto ' style={{fontFamily:'cursive'}} >Sabi.com</h3>
                     <div className='mx-auto w-[400px] h-[400px]'>
