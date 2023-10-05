@@ -30,7 +30,7 @@ const Nav =()=>{
                     
                     {open ? <AiOutlineMenuUnfold  />:<AiOutlineMenuFold  />}
                 </div>
-                <nav id='navBar' className={`lg:flex flex-col text-lg lg:flex-row sm:margin-auto h-[300px] md:h-fit  md:w-[60%] justify-between z-10 ${open ? 'flex flex-col bg-wheat mt-10 p-4 rounded leading-[50px] right-0 my-auto' : 'hidden'}`} style={{fontFamily: 'cursive'}}>
+                <nav id='navBar' className={`lg:flex flex lg:static absolute text-lg lg:flex-row sm:margin-auto h-[300px] md:h-fit w-[250px]  text-center md:w-[60%] md:z-auto  md:justify-between  transition-all duration-500 ease-in md:opacity-100 opacity-0 ${open ? 'flex flex-col bg-wheat p-4 rounded leading-[50px] right-0 my-auto z-10 top-20 opacity-100' : 'flex-col sticky top-[-500px]  '}`} style={{fontFamily: 'cursive'}}>
 
                     <NavLink  className={({ isActive }) =>
                         isActive ? "text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text  border-b-2 border-b-blue-900 font-bold" : "font-semibold hover:text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text"
@@ -47,7 +47,7 @@ const Nav =()=>{
                     <NavLink  className={({ isActive }) =>
                         isActive ? "text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text  border-b-2 border-b-blue-900 font-bold" : "font-semibold hover:text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text"
                     } to="/Contact">Contact</NavLink>
-                    <div className='flex w-[20%] my-auto        justify-between px-2 '>
+                    <div className='flex lg:w-[20%] my-auto mx-auto w-[80%] justify-between px-2 '>
                         <BiSearchAlt2 className='text-stone-500 hover:text-black text-xl hover:cursor-pointer' />
                         <BiSolidUserCircle className='text-stone-500 hover:text-black text-xl hover:cursor-pointer' />
                         <FaPhone className='text-stone-500 hover:text-black text-xl hover:cursor-pointer' />
