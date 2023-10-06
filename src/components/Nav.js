@@ -27,12 +27,12 @@ const Nav =()=>{
                    
                 </NavLink>
 
-                <div onClick={()=>setOpen(!open)} className='mr-[10px] absolute text-3xl font-bold z-10 right-2 cursor-pointer lg:hidden md:right-8'>
+                <div onClick={()=>setOpen(!open)} className='mr-[10px] absolute text-3xl font-bold z-10 right-2 cursor-pointer md:hidden lg:right-8'>
                     
                     
                     {open ? <AiOutlineMenuUnfold  />:<AiOutlineMenuFold  />}
                 </div>
-                <nav id='navBar' className={`lg:flex flex lg:static absolute text-lg lg:flex-row sm:mx-auto h-[300px] md:h-fit w-[250px]  text-center md:w-[60%] md:z-auto  md:justify-between  transition-all duration-500 ease-in md:opacity-100 opacity-0 ${open ? 'flex flex-col bg-wheat p-4 rounded leading-[50px] right-0 my-auto z-10 top-20 opacity-100' : 'flex-col sticky top-[-500px]  '}`} style={{fontFamily: 'cursive'}}>
+                <nav id='navBar' className={`md:flex flex md:static absolute text-lg md:flex-row sm:mx-auto h-[300px] md:h-fit w-[250px]  text-center md:w-[60%] md:z-auto  md:justify-between  transition-all duration-500 ease-in md:opacity-100 opacity-0 ${open ? 'flex flex-col bg-wheat p-4 rounded leading-[50px] right-0 my-auto z-10 top-20 opacity-100' : 'flex-col sticky top-[-500px] ease-out duration-200 '}`} style={{fontFamily: 'cursive'}}>
 
                     <NavLink onClick={handleMenuItemClick}  className={({ isActive }) =>
                         isActive ? "text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text  border-b-2 border-b-blue-900 font-bold" : "font-semibold hover:text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text"
@@ -49,7 +49,7 @@ const Nav =()=>{
                     <NavLink onClick={handleMenuItemClick}  className={({ isActive }) =>
                         isActive ? "text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text  border-b-2 border-b-blue-900 font-bold" : "font-semibold hover:text-transparent bg-gradient-to-r from-sky-400 to-fuchsia-700 bg-clip-text"
                     } to="/Contact">Contact</NavLink>
-                    <div className='flex lg:w-[20%] my-auto mx-auto md:mx-0 w-[80%] justify-between px-2 '>
+                    <div className='flex md:hidden lg:flex lg:w-[20%] my-auto mx-auto md:mx-0 w-[80%] justify-between px-2 '>
                         <BiSearchAlt2 className='text-stone-500 hover:text-black text-xl hover:cursor-pointer' />
                         <BiSolidUserCircle className='text-stone-500 hover:text-black text-xl hover:cursor-pointer' />
                         <FaPhone className='text-stone-500 hover:text-black text-xl hover:cursor-pointer' />
