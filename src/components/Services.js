@@ -15,7 +15,7 @@ import networkHero from '../illustrations/servicees-3.webp';
 
 const Services =()=>{
     
-    const myArray =[{title:'Web Design and Developement',
+    const myArray =[{title:'Web Design/Developement',
                     description:'With close to two years experience in web developement, we offer precise, thoughtout, futuristic and excellent website designs and developement from start to finish.',
                     heroImg:download,
                     examples:'Here are some projects we have worked on.',
@@ -39,11 +39,11 @@ const Services =()=>{
       
                 
     return(
-        <div >
+        <div className=''>
             <div className="flex flex-col">
-                <h1 className="mx-auto text-[70px] text-mydarkblue2 font-bold mt-[20px] mb-10 border-b border-b-slate-300">Our Services</h1>
+                <h1 className="mx-auto text-[40px] md:text-[70px] text-mydarkblue2 font-bold mt-[20px] mb-10 border-b border-b-slate-300">Our Services</h1>
                 <div className='flex flex-col mx-auto'>
-                    <p className='mx-auto text-2xl mt-2 max-w-[70%] z-10'> <span className='text-[40px] font-bold text-mydarkblue1 ' style={{fontFamily:'cursive'}}>Cornelius Egberameiye,</span> renders a variety of services, due to the range of experiences and knowledge ammased over the years. these services include:</p>
+                    <p className='mx-auto text-3xl mt-2 pl-2 sm:pl-0 md:max-w-[70%] z-[1]'> <span className='text-[40px] font-bold text-mydarkblue1 ' style={{fontFamily:'cursive'}}>Cornelius E<span className='hidden sm:inline-block'>gberameiye</span>,</span> renders a variety of services, due to the range of experiences and knowledge ammased over the years. these services include:</p>
                     
                         {myArray.map((service, index)=>(
                            

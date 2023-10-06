@@ -14,8 +14,8 @@ const HPContacts =()=>{
         <div className='flex flex-col transition-transform duration-300'>
             <div className='flex justify-center flex-col w-[80%] mx-auto py-3'>
                 <h1 className='mx-auto  text-3xl font-bold my-4'>Let's keep in touch</h1>
-                <div className='flex justify-between px-3'>
-                    <ul className='items-center my-auto'>
+                <div className='flex justify-between px-3 '>
+                    <ul className='items-center my-auto hidden md:block'>
                         <li className='mt-4 cursor-pointer hover:text-stone-600 hover:text-xl transition-transform duration-200 font-bold'> <FaTwitterSquare/> </li>
                         <li className='mt-4 cursor-pointer hover:text-stone-600 hover:text-xl transition-transform duration-200 font-bold'> <FaInstagram/> </li>
                         <li className='mt-4 cursor-pointer hover:text-stone-600 hover:text-xl transition-transform duration-200 font-bold'> <ImLinkedin/> </li>

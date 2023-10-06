@@ -34,9 +34,9 @@ import {BsLinkedin} from 'react-icons/bs'
             
             <div className='flex flex-col bg-mydarkblue2 border-none py-4 '>
                 <ul className='leading-10 flex m-auto py-[30px] z-10'>
-                    <li className="font-semibold flex gap-4 mx-4"><BsFillTelephoneFill className='text-[25px]'/><span className=" font-semibold text-sm text-wheat underline">: 08133615311</span></li>
-                    <li className="font-semibold flex gap-4 mx-4"><HiMail className='text-[25px]'/><span className=" font-semibold text-sm text-wheat underline">: Corneliusajayi123@gmail.com</span></li>
-                    <li className="font-semibold flex gap-4 mx-4"><ImLocation2 className='text-[25px]'/> <span className=" font-semibold text-sm text-wheat underline">: 123, ABC st Gwagwalada Abuja</span></li>
+                    <li className="font-semibold flex  mx-4 mb-10 md:mb-0"><BsFillTelephoneFill className='text-[25px]'/><span className=" font-semibold text-sm text-wheat underline hidden md:flex">: 08133615311</span></li>
+                    <li className="font-semibold flex  mx-4 mb-10 md:mb-0"><HiMail className='text-[25px]'/><span className=" font-semibold text-sm text-wheat underline hidden md:flex">: Corneliusajayi123@gmail.com</span></li>
+                    <li className="font-semibold flex  mx-4 mb-10 md:mb-0"><ImLocation2 className='text-[25px]'/> <span className=" font-semibold text-sm text-wheat underline hidden md:flex">: 123, ABC st Gwagwalada Abuja</span></li>
                 </ul>
                 <ul className="text-sm my-auto flex gap-4 m-auto z-10">
                     <li className="cursor-pointer hover:font-semibold hover:text-white"><BsFacebook/></li>

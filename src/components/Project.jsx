@@ -8,7 +8,7 @@ const Project = ({title, project,key, description, heroImg, projectArray, isOrde
     <div className={orderSwitchClass}>
       <h2 style={{fontFamily:'cursive'}} className={titleOSClass}>{title} </h2>
       
-      <div className='flex justify-between'>
+      <div className='lg:flex justify-between'>
         <img src={heroImg} alt="" className='min-w-[50%] rounded rounded-r-full rounded-tl-md rounded-bl-full' />
         <div className='flex flex-col'>
           <p style={{fontFamily:'cursive'}} className='text-xl text-center font-semibold'>{description}</p>
@@ -17,10 +17,10 @@ const Project = ({title, project,key, description, heroImg, projectArray, isOrde
             
                 <div className='max-w-[55%] mx-auto flex flex-col'>
                   <div className='flex flex-col '>
-                    <img src={item.pic} key={itemIndex} alt="" className='w-[70px] h-[70px] rounded-full mx-auto my-2' />
-                    <p className='mx-auto text-sm font-semibold'>{item.label}</p>
+                    <img src={item.pic} key={itemIndex} alt="" className='w-[70px] h-[70px] rounded-full mx-auto my-2 hover:opacity-50 transform duration-300 cursor-pointer' />
+                    <p className='mx-auto text-sm text-center font-semibold cursor-pointer hover:opacity-50 transform duration-300'>{item.label}</p>
                   </div>
-                  <a href="#" className='mx-auto text-sm text-red-400 font-bold'>{item.link}</a>
+                  <a href="#" className='mx-auto text-sm text-red-400 font-bold cursor-pointer hover:opacity-50 transform duration-300'>{item.link}</a>
                 </div>
             
           ))}

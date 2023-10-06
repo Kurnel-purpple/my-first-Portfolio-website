@@ -11,7 +11,7 @@ const Home =()=>{
     return(
         <div >
             
-            <div id='home' className="section flex justify-center mt-[0px] bg-no-repeat bg-center bg-cover ">
+            <div id='' className="section flex justify-center mt-[0px] bg-no-repeat bg-center bg-cover ">
             <div className=' flex flex-col'>
                 <p className='mt-[6rem]  text-xl font-semibold mr-1 mx-auto mb-0'>
                     <span className='text-3xl text-green-500'>Hi,</span><br/> I'm <span className=' font-bold align-middle text-3xl bg-gradient-to-r from-rebeccapurple via-orangered to-tahiti text-transparent bg-clip-text '>CORNELIUS  E<span className='sm:hidden'>.</span><span className='hidden sm:inline-block'>GBERAMEIYE</span> </span><br/>

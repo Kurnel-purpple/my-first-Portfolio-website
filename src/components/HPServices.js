@@ -5,7 +5,7 @@ const HPServices =()=>{
     return(
         
         <section className='flex flex-col'>
-            <h1 className='left-16 relative text-3xl font-bold '>Our Services</h1>
+            <h1 className='md:left-16 mx-auto md:mx-0 relative text-3xl font-bold '>Our Services</h1>
             <div className='lg:flex'>
             <img src={serviceImg} alt="" className='h-fit lg:top-14 relative' />
             <div className='md:px-3 mb-4 z-10 flex flex-col'>

@@ -42,8 +42,8 @@ const Projects =()=>{
                     }
                 ]
     return(
-        <section id="projects" className="Flex section">
-            <h1 className="text-[70px] text-mydarkblue1 mt-[20px] border-b border-b-slate-300 w-fit mx-auto font-bold text-center">Our Works</h1>
+        <section id="projects" className="flex flex-col section">
+            <h1 className="mx-auto text-[40px] md:text-[70px] text-mydarkblue2 font-bold mt-[20px] mb-10 border-b border-b-slate-300">Our Works</h1>
 
             {projectArray.map((eachProject, index)=>(
                 <Project

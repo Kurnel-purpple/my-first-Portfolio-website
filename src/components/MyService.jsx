@@ -1,7 +1,7 @@
 
 
 const MyService = ({ title, myArray,examples, description, heroImg, images, isOrderSwitched }) => {
-    const containerClasses = `flex  p-4 ${isOrderSwitched ? 'flex-row-reverse bg-stone-600 text-wheat' : ''}`;
+    const containerClasses = `lg:flex   p-4 ${isOrderSwitched ? 'flex-row-reverse bg-stone-600 text-wheat' : ''}`;
     const flipDisplay = ` ${isOrderSwitched ? ' bg-stone-600 text-wheat' : ''}`;
     const titleFlippedDisplay = ` mr-4 mb-3 font-semibold text-2xl  px-3 py-1 w-fit shadow-myShadow2 rounded  ml-5 ${isOrderSwitched ? ' shadow-myShadow3 bg-stone-700 text-wheat' : ''}`;
   return(
@@ -30,18 +30,20 @@ const MyService = ({ title, myArray,examples, description, heroImg, images, isOr
         <div className=''>
            <h3 className={titleFlippedDisplay} style={{fontFamily:'cursive'}} >{title}</h3>
            <div className={containerClasses}>
-                <div className="w-1/2">
+                <div className="lg:w-1/2">
                   <img className="max-w-full rounded-full" src={heroImg} alt="Hero Image" />
                 </div>
-                <div className="w-1/2 p-4 my-auto">
+                <div className="lg:w-1/2 lg:p-4 my-auto">
                   <p>{description}</p>
                   <h4 style={{fontFamily:'cursive'}} className="z-10 font-semibold text-xl">{examples}</h4> 
 
                     <div className="flex mt-3 mx-4">
                     {images.map((image, imgIndex)=>(
                         <div className="mx-auto flex flex-col">
-                            <img className="w-[70px] h-[70px] mx-auto rounded-full " src={image.pic} key={imgIndex} alt="" />
-                            <p className="mx-auto font-semibold ">{image.label}</p>
+                            <img className="w-[70px] h-[70px] duration-300 hover:opacity-50 transform hover:w-[80px] hover:h-[80px] mx-auto rounded-full cursor-pointer " src={image.pic} key={imgIndex} alt="" />
+                            
+                            <p className="mx-auto text-center font-semibold mr-2 cursor-pointer ">{image.label}</p>
+                            
                         </div>
                     ))}
                     </div>
