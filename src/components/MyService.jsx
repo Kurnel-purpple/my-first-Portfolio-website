@@ -31,7 +31,7 @@ const MyService = ({ title, myArray,examples, description, heroImg, images, isOr
            <h3 className={titleFlippedDisplay} style={{fontFamily:'cursive'}} >{title}</h3>
            <div className={containerClasses}>
                 <div className="lg:w-1/2">
-                  <img className="max-w-full rounded-full" src={heroImg} alt="Hero Image" />
+                  <img className="max-w-full rounded-full" src={heroImg} alt="Hero" />
                 </div>
                 <div className="lg:w-1/2 lg:p-4 my-auto">
                   <p>{description}</p>

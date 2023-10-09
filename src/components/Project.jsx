@@ -20,7 +20,7 @@ const Project = ({title, project,key, description, heroImg, projectArray, isOrde
                     <img src={item.pic} key={itemIndex} alt="" className='w-[70px] h-[70px] rounded-full mx-auto my-2 hover:opacity-50 transform duration-300 cursor-pointer' />
                     <p className='mx-auto text-sm text-center font-semibold cursor-pointer hover:opacity-50 transform duration-300'>{item.label}</p>
                   </div>
-                  <a href="#" className='mx-auto text-sm text-red-400 font-bold cursor-pointer hover:opacity-50 transform duration-300'>{item.link}</a>
+                  <a href="" className='mx-auto text-sm text-red-400 font-bold cursor-pointer hover:opacity-50 transform duration-300'>{item.link}</a>
                 </div>
             
           ))}

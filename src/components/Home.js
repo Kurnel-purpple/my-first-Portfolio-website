@@ -38,7 +38,7 @@ const Home =()=>{
                 </div>
             </div>
             <div className=''> 
-                <img src={codingDesk1} alt='Hero Image' className=' rounded-l-full rounded-br-full hidden lg:flex dark:my-auto'  />
+                <img src={codingDesk1} alt='HeroPic' className=' rounded-l-full rounded-br-full hidden lg:flex dark:my-auto'  />
             </div>
             </div>
             <HPServices/>

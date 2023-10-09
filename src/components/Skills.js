@@ -25,7 +25,7 @@ const Skills = () => {
       </h1>
 
       <div className='lg:flex justify-between my-4'>
-        <img src={myskills[0].heroImg} alt="Coding Desk" className=' dark:rounded-r-full dark:rounded-bl-full' />
+        <img src={myskills[0].heroImg} alt="Desk" className=' dark:rounded-r-full dark:rounded-bl-full' />
 
         <div className='my-1 flex lg:w-[50%] flex-col py-[70px] justify-center'>
             <p style={{fontFamily:"cursive"}} className=' text-2xl text-center'>I am currently proficient in using the following programming Languages and low-code tools</p>

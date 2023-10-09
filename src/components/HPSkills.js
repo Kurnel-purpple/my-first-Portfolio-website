@@ -31,7 +31,7 @@ const HPSkills =()=>{
                         </div>
                         <button className="bg-gradient-to-r shadow-myShadow2 dark:shadow-myShadow3 text-wheat from-mywall to-stone-500 px-[20px] py-1 text-xl font-semibold rounded-3xl w-fit  mx-auto my-4 " ><NavLink to="/Skills">See More</NavLink> </button>
                     </div>
-                    <img src={skillsImg} alt="skills image" className='rounded-l-full rounded-br-full' />
+                    <img src={skillsImg} alt="skills" className='rounded-l-full rounded-br-full' />
                 </div>
             </div>
         </div>
