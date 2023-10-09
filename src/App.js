@@ -1,5 +1,8 @@
 
 import {Routes, Route} from 'react-router-dom';
+
+
+
 import Home from './components/Home';
 import Services from './components/Services';
 import Projects from './components/Projects';
@@ -13,8 +16,8 @@ import Bottomnav from './components/Bottomnav';
 
 function App() {
   return (
-    <>
-      <body className='bg-milk md:w-[90%] mx-auto'>
+    <div className='dark:bg-stone-900 w-full'>
+      <body className='bg-milk md:w-[90%] mx-auto dark:text-wheat dark:bg-stone-800 duration-100'>
         {/* <div>className="  bg-gradient-to-r to-mywall via-mylylac from-mydarkblue1"</div> */}
       <Nav/>
       <Routes>
@@ -29,7 +32,7 @@ function App() {
       
       <Footer/>
       </body>
-    </>
+    </div>
   );
 }
 

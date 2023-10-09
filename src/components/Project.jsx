@@ -8,7 +8,7 @@ const Project = ({title, project,key, description, heroImg, projectArray, isOrde
     <div className={orderSwitchClass}>
       <h2 style={{fontFamily:'cursive'}} className={titleOSClass}>{title} </h2>
       
-      <div className='lg:flex justify-between'>
+      <div className='flex flex-col lg:flex-row justify-between'>
         <img src={heroImg} alt="" className='min-w-[50%] rounded rounded-r-full rounded-tl-md rounded-bl-full' />
         <div className='flex flex-col'>
           <p style={{fontFamily:'cursive'}} className='text-xl text-center font-semibold'>{description}</p>

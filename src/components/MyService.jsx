@@ -3,7 +3,7 @@
 const MyService = ({ title, myArray,examples, description, heroImg, images, isOrderSwitched }) => {
     const containerClasses = `lg:flex   p-4 ${isOrderSwitched ? 'flex-row-reverse bg-stone-600 text-wheat' : ''}`;
     const flipDisplay = ` ${isOrderSwitched ? ' bg-stone-600 text-wheat' : ''}`;
-    const titleFlippedDisplay = ` mr-4 mb-3 font-semibold text-2xl  px-3 py-1 w-fit shadow-myShadow2 rounded  ml-5 ${isOrderSwitched ? ' shadow-myShadow3 bg-stone-700 text-wheat' : ''}`;
+    const titleFlippedDisplay = ` mr-4 mb-3 font-semibold text-2xl  px-3 py-1 w-fit shadow-myShadow2 dark:shadow-myShadow3 rounded  ml-5 ${isOrderSwitched ? ' shadow-myShadow3 bg-stone-700 text-wheat' : ''}`;
   return(
     <div style={{
         top: 0,
@@ -12,7 +12,7 @@ const MyService = ({ title, myArray,examples, description, heroImg, images, isOr
         overflow: 'hidden',
         
         }} className={flipDisplay}>
-        <svg style={{position: 'relative',
+        <svg className="" style={{position: 'relative',
           display: 'block',
           width: 'calc(128% + 1.3px)',
           height: '173px',

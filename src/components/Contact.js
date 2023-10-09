@@ -24,7 +24,7 @@ const Contact =()=>{
         ]
     return(
         <section id="contact" className="flex flex-col section">
-            <h1 className="mx-auto text-[40px] md:text-[70px] text-mydarkblue2 font-bold mt-[20px] mb-10 border-b border-b-slate-300">Contact Us</h1>
+            <h1 className="mx-auto text-[40px] md:text-[70px] text-mydarkblue2 font-bold mt-[20px] mb-10 border-b border-b-slate-300 dark:text-white">Contact Us</h1>
             
             <div className='flex flex-col'>
                 <div className='lg:flex mx-auto mt-10'>
@@ -42,7 +42,7 @@ const Contact =()=>{
                                 <li className='flex my-2'>
                                     <span className='cursor-pointer hover:opacity-50 duration-300 my-auto text-xl mr-2'>{contactItem.item}</span>
 
-                                    <span className='cursor-pointer hover:opacity-50 duration-300 font-semibold text-xl text-mydarkblue1'>{contactItem.element}</span>
+                                    <span className='cursor-pointer hover:opacity-50 duration-300 font-semibold text-xl text-mydarkblue1 dark:text-gray-400'>{contactItem.element}</span>
                                 </li>
 
                             </ul>
