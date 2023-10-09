@@ -40,10 +40,10 @@ const Services =()=>{
                 
     return(
         <div className=''>
-            <div className="flex flex-col">
-                <h1 className="mx-auto text-[40px] md:text-[70px] text-mydarkblue2 font-bold mt-[20px] mb-10 border-b border-b-slate-300">Our Services</h1>
-                <div className='flex flex-col mx-auto'>
-                    <p className='mx-auto text-3xl mt-2 pl-2 sm:pl-0 md:max-w-[70%] z-[1]'> <span className='text-[40px] font-bold text-mydarkblue1 ' style={{fontFamily:'cursive'}}>Cornelius E<span className='hidden sm:inline-block'>gberameiye</span>,</span> renders a variety of services, due to the range of experiences and knowledge ammased over the years. these services include:</p>
+            <div className="flex flex-col transition-all duration-500">
+                <h1 className="mx-auto text-[40px] md:text-[70px] text-mydarkblue2 dark:text-wheat font-bold mt-[20px] mb-10 border-b border-b-slate-300">Our Services</h1>
+                <div className='flex flex-col mx-auto '>
+                    <p className='mx-auto text-3xl mt-2 pl-2 sm:pl-0 md:max-w-[70%] z-[1] dark:bg-stone-900/90 dark:z-[] dark:px-2 py-2 dark:text-2xl dark:md-max-w-[100%] rounded-xl'> <span className='text-[40px] font-bold text-mydarkblue1 dark:text-white ' style={{fontFamily:'cursive'}}>Cornelius E<span className='hidden sm:inline-block'>gberameiye</span>,</span> renders a variety of services, due to the range of experiences and knowledge ammased over the years. these services include:</p>
                     
                         {myArray.map((service, index)=>(
                            

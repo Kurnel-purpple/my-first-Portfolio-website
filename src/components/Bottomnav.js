@@ -8,9 +8,9 @@ const Bottomnav = ()=>{
     return(
         <div className="hidden sm:flex fixed bottom-6 w-full z-[100] overflow-hidden">
             <div className='container mx-auto'>
-                <div className='items-center w-full max-w-[420px] h-[90px] bg-wheat/70 backdrop-blur-2xl rounded-full mx-auto flex justify-between px-5 text-2xl'>
+                <div className='items-center w-full max-w-[420px] h-[90px] bg-wheat/70 dark:bg-stone-900/50 backdrop-blur-2xl rounded-full mx-auto flex justify-between px-5 text-2xl'>
                     <Link smooth = {true}
-                     to='/' className = {({isActive}) => isActive ? "bg-gradient-to-r from-orangered to-blue-500  hover:cursor-pointer  p-2 rounded-full items-center text-blue-500":  "hover:cursor-pointer  p-2 rounded-full items-center text-black/50 hover:text-black/90 hover:text-3xl justify-center"}>
+                     to='./' className = {({isActive}) => isActive ? "bg-gradient-to-r from-orangered to-blue-500  hover:cursor-pointer  p-2 rounded-full items-center text-blue-500":  "hover:cursor-pointer  p-2 rounded-full items-center text-black/50 hover:text-black/90 hover:text-3xl justify-center"}>
                         <BiHome/>
                     </Link>
                     <Link smooth = {true}
