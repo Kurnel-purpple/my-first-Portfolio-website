@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e10b3c9.css",
+    "main.js": "/static/js/main.0eba194e.js",
+    "static/media/training.jpg": "/static/media/training.4bfc6113242a270e0687.jpg",
+    "static/media/office.png": "/static/media/office.260da1d0f776daa8624e.png",
+    "static/media/sax.jpg": "/static/media/sax.eaf301344fe9491092a0.jpg",
+    "static/media/ICT-lab.jpg": "/static/media/ICT-lab.fab898d80577763f6c59.jpg",
+    "static/media/mic.jpg": "/static/media/mic.82174c78e8d447671b4f.jpg",
+    "static/media/ICT-classroom.jpg": "/static/media/ICT-classroom.7c72299b18ea8bf520d0.jpg",
+    "static/media/frontEnd-sign.jpg": "/static/media/frontEnd-sign.80f4aed840feed513a31.jpg",
+    "static/media/ICT-Classroom2.jpg": "/static/media/ICT-Classroom2.f2c137a8c2e91a585cb7.jpg",
+    "static/media/teaching.jpg": "/static/media/teaching.8f1f59a9cdc51df7413b.jpg",
+    "static/media/blog.webp": "/static/media/blog.48cb58d4dfb3c9be279e.webp",
+    "static/media/Coding-desk.webp": "/static/media/Coding-desk.ca52422e6e43a19ec385.webp",
+    "static/media/rightDesk-2.webp": "/static/media/rightDesk-2.4e89826a25eccda460fe.webp",
+    "static/media/services-2.webp": "/static/media/services-2.dffcfdfab8b3a0c62ae2.webp",
+    "static/media/classroom-3.webp": "/static/media/classroom-3.9cb2e74a75ca8e4b330f.webp",
+    "static/media/rightDesk-3.webp": "/static/media/rightDesk-3.6fde5ccc4d08bd55dcaf.webp",
+    "static/media/servicees-3.webp": "/static/media/servicees-3.22ad71ef61a06a17cf86.webp",
+    "static/media/classroom-4.webp": "/static/media/classroom-4.728122d427f05c879a85.webp",
+    "static/media/download.webp": "/static/media/download.6b18981e0c14922e90cc.webp",
+    "index.html": "/index.html",
+    "main.9e10b3c9.css.map": "/static/css/main.9e10b3c9.css.map",
+    "main.0eba194e.js.map": "/static/js/main.0eba194e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e10b3c9.css",
+    "static/js/main.0eba194e.js"
+  ]
+}
